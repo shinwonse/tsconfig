@@ -1,5 +1,0 @@
----
-'@wonse/tsconfig': patch
----
-
-okay
