@@ -20,6 +20,11 @@
   "bugs": {
     "url": "https://github.com/shinwonse/tsconfig/issues"
   },
+  "files": [
+    "tsconfig-base.json",
+    "tsconfig-node.json",
+    "tsconfig-react.json"
+  ],
   "scripts": {
     "release": "changeset publish"
   },
