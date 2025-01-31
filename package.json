@@ -1,0 +1,30 @@
+{
+  "name": "@wonse/tsconfig",
+  "description": "tsconfig for wonse",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "author": {
+    "name": "Wonse Shin",
+    "email": "sinwonse@gmail.com",
+    "url": "https://github.com/shinwonse"
+  },
+  "homepage": "https://github.com/shinwonse/tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinwonse/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shinwonse/tsconfig/issues"
+  },
+  "scripts": {
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.12",
+    "semantic-release": "^24.2.1"
+  }
+}
