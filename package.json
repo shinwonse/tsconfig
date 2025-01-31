@@ -26,5 +26,8 @@
   "devDependencies": {
     "@changesets/cli": "^2.27.12",
     "semantic-release": "^24.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
