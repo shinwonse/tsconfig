@@ -1,6 +1,6 @@
 # @wonse/tsconfig
 
-A collection of shareable TypeScript configurations optimized for various environments (React, Node.js, Next.js).
+A collection of shareable TypeScript configurations optimized for various environments (React, Node.js, Next.js, Remix).
 
 ## Features
 
@@ -91,6 +91,24 @@ Next.js-Specific Features:
 - Next.js type support
 - Server/Client component optimization
 - Build performance settings
+
+### Remix Configuration
+
+Optimized configuration for Remix projects, supporting both client and server-side TypeScript.
+
+```json
+{
+  "extends": "@wonse/tsconfig/tsconfig-remix.json"
+}
+```
+
+Remix-Specific Features:
+
+- Full-stack TypeScript support
+- Optimized module bundling
+- Path aliases for app directory
+- Server and client code type safety
+- Remix environment type definitions
 
 ## Detailed Configuration
 
