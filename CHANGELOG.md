@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.1
+
+### Patch Changes
+
+- fd45ba6: Add tsconfig for Next.js and Remix to package files
+
 ## 2.0.0
 
 ### Major Changes
