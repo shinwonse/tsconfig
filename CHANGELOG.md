@@ -1,19 +1,27 @@
-# @wonse/tsconfig
+# Changelog
 
-## 1.1.0
+All notable changes to this project will be documented in this file.
 
-### Minor Changes
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-- 3985ed0: create tsconfig for next.js project
+## [1.1.0] - 2024-02-01
 
-## 1.0.2
+### Added
 
-### Patch Changes
+- Added Next.js-specific TypeScript configuration (`tsconfig-next.json`)
+- Added `verbatimModuleSyntax` and `moduleDetection` options to base configuration
 
-- 2cdedf1: okay
+### Changed
 
-## 1.0.1
+- Optimized configurations for TypeScript 5.0+
+- Enhanced type checking with stricter options
 
-### Patch Changes
+## [1.0.0] - 2024-01-31
 
-- test workflow
+### Added
+
+- Initial release with base TypeScript configuration (`tsconfig-base.json`)
+- Added React-specific configuration (`tsconfig-react.json`)
+- Added Node.js-specific configuration (`tsconfig-node.json`)
+- Initial project setup and documentation
