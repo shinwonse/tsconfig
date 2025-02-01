@@ -23,7 +23,9 @@
   "files": [
     "tsconfig-base.json",
     "tsconfig-node.json",
-    "tsconfig-react.json"
+    "tsconfig-react.json",
+    "tsconfig-next.json",
+    "tsconfig-remix.json"
   ],
   "scripts": {
     "release": "changeset publish"
