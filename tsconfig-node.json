@@ -3,11 +3,13 @@
   "display": "Node tsconfig",
   "extends": "./tsconfig-base.json",
   "compilerOptions": {
-    "lib": ["es2022"],
-    "jsx": "react-jsx",
-    "module": "NodeNext",
-    "target": "ESNext",
-    "moduleResolution": "NodeNext"
+    "lib": ["es2023", "dom"],
+    "module": "ESNext",
+    "target": "es2022",
+    "moduleResolution": "bundler",
+    "outDir": "dist",
+    "types": ["node"]
   },
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
 }
