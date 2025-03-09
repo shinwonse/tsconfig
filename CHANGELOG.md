@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.1
+
+### Patch Changes
+
+- 4b6c07c: moduleResolution update
+
 ## 2.0.1
 
 ### Patch Changes
