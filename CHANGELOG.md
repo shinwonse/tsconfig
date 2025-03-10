@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.3
+
+### Patch Changes
+
+- 1d4a24f: update tsconfig-node.json
+
 ## 3.0.2
 
 ### Patch Changes
