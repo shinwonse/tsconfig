@@ -35,8 +35,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@tsconfig/node22": "^22.0.0"
   }
 }
